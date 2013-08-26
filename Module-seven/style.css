@@ -1,0 +1,193 @@
+body{
+	background-image: -moz-radial-gradient(center top, circle farthest-corner, #AFD7FF 0%, #2C88E6 100%);
+	background-image: -webkit-radial-gradient(center top, circle farthest-corner, #AFD7FF 0%, #2C88E6 100%);
+	background-image: -webkit-gradient(radial, center top, 0, center top, 561, color-stop(0, #AFD7FF), color-stop(1, #2C88E6));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: auto;
+}
+
+h3{
+	text-align: center;
+}
+
+img{
+    display: inline;
+}
+
+.cf:before, .cf:after{
+    content:"";
+    display: table;
+}
+ 
+.cf:after{
+    clear: both;
+}
+ 
+.cf{
+    zoom:1;
+} 
+
+.div-wrapper {
+    width: 450px;
+    padding: 15px;
+    margin: 250px auto 15px auto;
+    background: #444;
+    background: rgba(0,0,0,.2);
+    border-radius: 10px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.4) inset, 0 1px 0 rgba(255,255,255,.2);
+}
+ 
+.div-wrapper input {
+    width: 330px;
+    height: 20px;
+    padding: 10px 5px;
+    float: left;    
+    font: bold 15px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    border: 0;
+    background: #eee;
+    border-radius: 3px 0 0 3px;      
+}
+ 
+.div-wrapper input:focus {
+    outline: 0;
+    background: #fff;
+    box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+}
+ 
+.div-wrapper input::-webkit-input-placeholder {
+   color: #999;
+   font-weight: normal;
+   font-style: italic;
+}
+ 
+.div-wrapper input:-moz-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+.div-wrapper input:-ms-input-placeholder {
+    color: #999;
+    font-weight: normal;
+    font-style: italic;
+}    
+
+.div-wrapper button {
+    overflow: visible;
+    position: relative;
+    float: right;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    height: 40px;
+    width: 110px;
+    font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+    color: #fff;
+    text-transform: uppercase;
+    background: #ef3d3d;
+    border-radius: 0 3px 3px 0;      
+    text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+}   
+   
+.div-wrapper button:hover{     
+    background: #ce3535;
+}   
+   
+.div-wrapper button:active,
+.div-wrapper button:focus{   
+    background: #c42f2f;
+    outline: 0;   
+}
+ 
+.div-wrapper button:before {
+    content: '';
+    position: absolute;
+    border-width: 8px 8px 8px 0;
+    border-style: solid solid solid none;
+    border-color: transparent #ef3d3d transparent;
+    top: 12px;
+    left: -6px;
+}
+ 
+.div-wrapper button:hover:before{
+    border-right-color: #ce3535;
+}
+ 
+.div-wrapper button:focus:before,
+.div-wrapper button:active:before{
+        border-right-color: #c42f2f;
+}      
+ 
+.div-wrapper button::-moz-focus-inner {x
+    border: 0;
+    padding: 0;
+}
+
+#content-wrapper{
+    width: 900px;
+    margin: auto;
+}
+
+.movie-wrapper{
+    float: left;
+    display: none;
+    margin: 15px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 1px black;
+    color: white;   
+    padding: 5px 30px;
+    border: 1px solid darkgreen;  
+    box-shadow: inset 1px 6px 12px lightgreen, inset -1px -5px 5px darkgreen, 1px 2px 1px black;
+    -o-box-shadow: inset 1px 6px 12px lightgreen, inset -1px -5px 5px darkgreen, 1px 2px 1px black;
+    -webkit-box-shadow: inset 1px 6px 12px lightgreen, inset -1px -5px 5px darkgreen, 1px 2px 1px black;
+    -moz-box-shadow: inset 1px 6px 12px lightgreen, inset -1px -10px 5px darkgreen, 1px 2px 1px black;
+    background-image: -webkit-radial-gradient(center, ellipse farthest-corner, #2cb740 0%, #04B91E 100%);
+    background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #2cb740), color-stop(1, #04B91E));
+    background-image: -moz-radial-gradient(center, ellipse farthest-corner, #2cb740 0%, #04B91E 100%);
+}
+
+.title-wrapper{
+    margin: 3px 0px 5px 0px;
+    float: left;
+    width: 100%;
+}
+
+.image-wrapper{
+    width: 65px;
+    height: 100px;
+    display: block;
+    margin: auto 10px auto 0px;
+    float: left;
+    vertical-align: baseline;
+    overflow: hidden;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+.desc-wrapper{
+    float: right;
+    width: 700px;
+    display: inline-block;
+    word-wrap: break-word;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#sort-container{
+    text-align: center;
+    font-size: 14pt;
+    display: none;
+    font-style: oblique;
+}
+
+span{
+    cursor: pointer;
+}

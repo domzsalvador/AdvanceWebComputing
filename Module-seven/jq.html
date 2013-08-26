@@ -1,0 +1,32 @@
+
+<!doctype html>
+
+<html>
+<head>
+	<title>Movie Search App</title>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jquery.js"></script>
+	<script src="app.js"></script>
+</head>
+<body>
+	
+	<div class="div-wrapper cf">
+        <input id ='textbox' type="text" placeholder="Search here">
+        <button id ='search' type="submit">Search</button>
+    </div>
+
+    <div id='result-container'>
+    	<h3></h3>
+    </div>
+
+    <div id='sort-container'>
+        Sort by: &nbsp;&nbsp;&nbsp;<span id = 'sort-title'>Title </span>|<span id='sort-year'> Year </span>|<span id ='sort-ratings'> Ratings </span>
+        <br><br><span id = 'First'>First | </span><span id ='Previous'>Previous | </span><span id ='Next'>Next | </span><span id = 'Last'>Last</span>
+    </div>
+
+    <div id = 'content-wrapper'>
+    </div>
+	
+</body>
+</html> 
