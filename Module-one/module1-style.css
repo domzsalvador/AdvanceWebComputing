@@ -1,0 +1,59 @@
+body{
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #464646 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #464646));
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #464646 100%);
+}
+
+.main{
+	width:800px;
+	margin:auto;
+	background-image: -moz-radial-gradient(center, circle farthest-corner, #FFFDCE 0%, #F9F347 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 506, color-stop(0, #FFFDCE), color-stop(1, #F9F347));
+	background-image: -webkit-radial-gradient(center, circle farthest-corner, #FFFDCE 0%, #F9F347 100%);
+	border-radius: 8px;
+}
+
+.col1{
+	width:350px;
+	height:600px;
+	float:left;
+	background-image: -webkit-radial-gradient(center, circle farthest-side, #C6EDFF 0%, #00A3EF 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, #C6EDFF), color-stop(1, #00A3EF));
+	background-image: -moz-radial-gradient(center, circle farthest-side, #C6EDFF 0%, #00A3EF 100%);
+	margin-bottom:10px;
+	border-radius: 8px;
+}
+
+.col2{
+	width:350px;
+	height:600px;
+	float:left;
+	background-image: -moz-radial-gradient(center, circle farthest-side, #FF7575 0%, #CF2700 100%);
+	background-image: -webkit-gradient(radial, center center, 0, center center, 487, color-stop(0, #FF7575), color-stop(1, #CF2700));
+	background-image: -webkit-radial-gradient(center, circle farthest-side, #FF7575 0%, #CF2700 100%);
+	margin-left:100px;
+	margin-bottom:10px;
+	border-radius: 8px;
+}
+
+a{
+	color:black;
+	text-decoration:none;
+}
+
+li{
+	font-style: italic;
+	font-weight: bold;
+}
+
+p{
+	font-family: cursive;
+}
+
+.aboutMe{
+	margin: 10px 15px 0px 15px;
+	font-style: oblique;
+	font-family: serif;
+	font-size: 12pt;
+	font-weight: bold;
+}
