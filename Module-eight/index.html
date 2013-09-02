@@ -14,35 +14,36 @@
 		
 		<form class="navbar-form navbar-left" role="search">
 		  <div class="form-group">
-			<input id="textbox" type="text" class="form-control" placeholder="Search">
+			<input id="textbox" type="text" class="form-control" placeholder="Search movie here...">
 		  </div>
-		  <button id="btn-search" type="button" class="btn btn-default">Submit</button>
+		  <button id="btn-search" type="button" class="btn btn-default">Search</button>
 		</form>
 		
-		<button id="box-office" type="button" class="btn btn-default navbar-btn">Box Office</button>
-		<button id="in-theaters" type="button" class="btn btn-default navbar-btn">In Theaters</button>
-		<button id="opening" type="button" class="btn btn-default navbar-btn">Opening Movies</button>
-		<button id="upcoming" type="button" class="btn btn-default navbar-btn">Upcoming Movies</button>
-		<button id="about-us" type="button" class="btn btn-default navbar-btn">About Us</button>
+		<button id="box-office" type="button" class="btn btn-default btn-xs navbar-btn">Box Office</button>
+		<button id="in-theaters" type="button" class="btn btn-default btn-xs navbar-btn">In Theaters</button>
+		<button id="opening-movies" type="button" class="btn btn-default btn-xs navbar-btn">Opening Movies</button>
+		<button id="upcoming-movies" type="button" class="btn btn-default btn-xs navbar-btn">Upcoming Movies</button>
+		<button id="top-rentals" type="button" class="btn btn-default btn-xs navbar-btn">Top Rentals</button>
+		<button id="current-release" type="button" class="btn btn-default btn-xs navbar-btn">Current Release</button>
+		<button id="new-release-dvds" type="button" class="btn btn-default btn-xs navbar-btn">New Release DVDs</button>
+		<button id="upcoming-dvds" type="button" class="btn btn-default btn-xs navbar-btn">Upcoming DVDs</button>
+		<button id="about-us" type="button" class="btn btn-default btn-xs navbar-btn">About Us</button>
 	</nav>
 	
-	<div id="thumbnails" class="row">
-		<script id="tpl-movie" type="text/x-handlebars-template">
-			<div class="col-lg-4 btn btn-default">
-				<div>
-				<img src="{{posters.thumbnail}}" class="img-thumbnail">
-				</div>
-				<div>
-				{{title}} ({{year}}) <br>
-				{{mpaa_rating}}
-				</div>
-			</div>
-		</script>
-	</div>
-		
 	<ul id="list">
+		<div id="thumbnails" class="row">
+			<script id="tpl-movie" type="text/x-handlebars-template">
+				<div class="col-lg-4 btn btn-default">
+					<div>
+						<img src="{{posters.detailed}}" width="180px" height="250px">
+					</div>
+					<div>
+						{{title}} ({{year}}) <br>
+						{{mpaa_rating}}
+					</div>
+				</div>
+			</script>
+		</div>
 	</ul>
-		
-	
 </body>
 </html>
