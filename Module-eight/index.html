@@ -30,20 +30,20 @@
 		<button id="about-us" type="button" class="btn btn-default btn-xs navbar-btn">About Us</button>
 	</nav>
 	
-	<ul id="list">
-		<div id="thumbnails" class="row">
-			<script id="tpl-movie" type="text/x-handlebars-template">
-				<div class="col-lg-4 btn btn-default">
-					<div>
-						<img src="{{posters.detailed}}" width="180px" height="250px">
-					</div>
-					<div>
-						{{title}} ({{year}}) <br>
-						{{mpaa_rating}}
-					</div>
+	<div id="thumbnails" class="row">
+		<script id="tpl-movie" type="text/x-handlebars-template">
+			<div class="col-lg-4 btn btn-default">
+				<div>
+					<img src="{{posters.detailed}}" width="180px" height="250px">
 				</div>
-			</script>
-		</div>
+				<div>
+					{{title}} ({{year}}) <br>
+					{{mpaa_rating}}
+				</div>
+			</div>
+		</script>
+	</div>
+	<ul id="list">
 	</ul>
 </body>
 </html>
