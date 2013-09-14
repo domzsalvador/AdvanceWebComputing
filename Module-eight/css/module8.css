@@ -1,0 +1,72 @@
+.navbar{
+	position: fixed;
+	width: 100%;
+	float: left;
+}
+
+.navbar-text{
+	margin: 15px 7px 7px 7px;
+}
+
+.navbar-form, .navbar-left{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#list{
+	margin: 80px 20px 5px 0px;
+}
+
+.info-container{
+	margin-top: 20px;
+}
+
+#movie-poster{
+	width: 180px;
+	height: 250px;
+	margin-top: 10px;
+}
+.col-sm-3{
+	text-align: center;
+	margin: 0px 5px 5px 5px;
+	width: 310px;
+}
+
+.btn-primary{
+	margin-top: 9px;
+}
+
+#movie-details-container{
+	width: 50%;
+	margin: auto;
+}
+
+#left-container{
+	width: 30%;
+	float: left;
+	text-align: center;
+}
+
+#right-container{
+	padding-left: 2%;
+	width: 70%;
+	float: right;
+}
+
+#back-btn{
+	float: right;
+}
+
+h3{
+	text-align: center;
+}
+
+.footer {
+	background-image: -moz-radial-gradient(center top, circle farthest-corner, #AFD7FF 0%, #2C88E6 100%);
+	background-image: -webkit-radial-gradient(center top, circle farthest-corner, #AFD7FF 0%, #2C88E6 100%);
+	background-image: -webkit-gradient(radial, center top, 0, center top, 561, color-stop(0, #AFD7FF), color-stop(1, #2C88E6));
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	overflow: auto;
+	color: white;
+}
