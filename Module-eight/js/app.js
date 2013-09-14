@@ -66,6 +66,12 @@ $(function () {
 				$('#movie-details-' + movie.indexId).css({display: 'none'});
 			}
 			
+			if (movies.length % 4 == 0) {
+				$('#list').append('<div class="spacer">&nbsp;&nbsp;&nbsp;<br><br><br></div>');
+			} else {
+				$('#list').append('<div class="spacer">&nbsp;&nbsp;&nbsp;<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br></div>');
+			}
+			
 			$('#list-temp').css({display: 'none'});
 			$('#h3').replaceWith('<h3></h3>');
 			$('#msg').animate({margin: '0px auto 0px auto'}, 600);

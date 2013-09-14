@@ -14,7 +14,9 @@
 }
 
 #list{
-	margin: 80px 20px 5px 0px;
+	height: 100%;
+	margin: 40px 20px 5px 0px;
+	
 }
 
 .info-container{
@@ -26,6 +28,7 @@
 	height: 250px;
 	margin-top: 10px;
 }
+
 .col-sm-3{
 	text-align: center;
 	margin: 0px 5px 5px 5px;
@@ -67,6 +70,20 @@ h3{
 	background-image: -webkit-gradient(radial, center top, 0, center top, 561, color-stop(0, #AFD7FF), color-stop(1, #2C88E6));
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	overflow: auto;
 	color: white;
+	text-align: center;
 }
+
+.h5, .h6{
+	display: block;
+	margin-bottom: 3px;
+}
+
+.footer-right{
+	float: right;
+}
+
+a{
+	color:white;
+}
+
