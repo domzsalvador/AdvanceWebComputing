@@ -188,16 +188,13 @@ $(function () {
 	}
 
 	function showMore(id){
-		var myNode = document.getElementById("list");
-		myNode.innerHTML = '';
-		
 		var globalMovie = globalMovies[id];
 		
 		if (globalMovie.synopsis.length == 0) {
 			globalMovie.synopsis = "No available synopsis.";
 		}	
 		
-		myNode.innerHTML = getTemplate('tpl-movie-details', globalMovie);
+		$('list').html(getTemplate('tpl-movie-details', globalMovie));
 	}
 	
 	function back(id){
